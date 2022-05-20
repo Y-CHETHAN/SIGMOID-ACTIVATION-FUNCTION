@@ -38,7 +38,7 @@ To develop a python code that creates a simple feed-forward neural networks or p
 /*
 Program to implement the sigmoid activation function in a feed forward ANN.
 Developed by: Y Chethan
-RegisterNumber:  212220230008
+Register Number:  212220230008
 */
 ```
 ```python
