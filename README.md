@@ -16,6 +16,7 @@ To develop a python code that creates a simple feed-forward neural networks or p
 * Sigmoid Activation Function is commonly used for models where we have to predict the probability as an output. Since probability of anything exists only between the range of 0 and 1, sigmoid is the right choice because of its range.
 * The function is differentiable and provides a smooth gradient, i.e., preventing jumps in output values. This is represented by an S-shape of the sigmoid activation function. 
 
+<br><br><br>
 #### The limitations of Sigmoid Function are :
 
 * The derivative of the function is f'(x) = sigmoid(x)*(1-sigmoid(x)).
@@ -52,6 +53,9 @@ class NeuralNetwork():
     
     def sigmoid_derivative(self,x):
         return x*(1-x)
+    
+    
+    
     
     def train(self,training_inputs,training_outputs,training_iterations):
         
@@ -91,6 +95,7 @@ if __name__=="__main__":
            
 ```
 
+<br><br><br><br>
 ## OUTPUT:
 ![Screenshot_640](https://user-images.githubusercontent.com/75235455/168613096-c802bca1-1f74-43be-82db-0ccc055239b0.png)
 
